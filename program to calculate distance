@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		int speed = s.nextInt();
+		int time = s.nextInt();
+		int d = speed*time;
+		    System.out.println(d+"km");
+		
+	}
+}
