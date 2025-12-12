@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner s= new Scanner(System.in);
+		int cakes =s.nextInt();
+		int hours = s.nextInt();
+		int total = cakes*hours;
+		    System.out.println("Total cakes: "+total);
+	}
+}
