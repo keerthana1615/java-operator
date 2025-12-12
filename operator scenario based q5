@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner s= new Scanner(System.in);
+		int candies =s.nextInt();
+		int stdnts = s.nextInt();
+		int eachgets = candies/stdnts;
+		int remaining = candies%stdnts;
+		    System.out.println("Eachgets: "+eachgets);
+		    System.out.println("Remaining: "+remaining);
+	}
+}
