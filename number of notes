@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int amount=s.nextInt();
+        int n2=amount/2000;
+        amount%=2000;
+        int n5=amount/500;
+        amount%=500;
+        int n1=amount/100;
+        System.out.println("2000 notes: "+n2);
+        System.out.println("500 notes: "+n5);
+        System.out.println("100 notes: "+n1);
+    }
+}
