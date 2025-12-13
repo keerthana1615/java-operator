@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int p= s.nextInt();      
+        int b= s.nextInt();     
+
+        int free = (b/5)*2;
+        int pen = b+-free;
+        int amount = pen*p;
+
+        System.out.println("pens to pay: " + pen);
+        System.out.println("Amount to pay: " + amount);
+    }
+}
