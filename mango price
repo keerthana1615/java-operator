@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int p= s.nextInt();      
+        int b= s.nextInt();     
+
+        int free = b/3;
+        int totalMangoes = b+free;
+        int amount = b*p;
+
+        System.out.println("Total mangoes: " + totalMangoes);
+        System.out.println("Amount to pay: " + amount);
+
+        s.close();
+    }
+}
